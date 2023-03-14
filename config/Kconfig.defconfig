@@ -1,0 +1,16 @@
+if SHIELD_DOLOMITY_LEFT
+
+config ZMK_KEYBOARD_NAME
+    default "Dolimity"
+
+config ZMK_SPLIT_ROLE_CENTRAL
+    default y
+
+endif
+
+if SHIELD_DOLOMITY_LEFT || SHIELD_DOLOMITY_RIGHT
+
+config ZMK_SPLIT
+    default y
+
+endif
