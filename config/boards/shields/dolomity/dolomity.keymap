@@ -1,6 +1,6 @@
 #include <behaviors.dtsi>
-#include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/bt.h>\
+#include <bt-bindings/zmk/keys.h>
+#include <bt-bindings/bt.h>\
 
 #define DEFAULT 0
 #define NM   1
