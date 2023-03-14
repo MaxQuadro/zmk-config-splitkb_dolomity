@@ -9,3 +9,5 @@ manifest:
       import: app/west.yml
   self:
     path: config
+
+  west build -b nice_nano -- -DSHIELD=kyria_left -DZMK_CONFIG="C:\Users\super\zmk-config-splitkb_dolomity/config"
