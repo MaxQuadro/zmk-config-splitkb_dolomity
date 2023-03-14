@@ -6,10 +6,10 @@
     keymap {
         default_layer {
         bindings = < 
-        &kp TAB          &kp Q  &kp W    &kp E    &kp R     &kp T                                                &kp Y      &kp U    &kp I       &kp O      &kp P     &kp NUBS
-        &kp CAPSLOCK     &kp A  &kp S    &kp D    &kp F     &kp G                                                &kp H      &kp J    &kp K       &kp L      &kp SEMI  &kp SQT
-        &kp LEFT_CONTROL &kp Z  &kp X    &kp C    &kp V     &kp B                                                &kp N      &kp M    &kp COMMA   &kp DOT    &kp FSLH  &kp mo 1
-        &kp              &kp    &kp LALT &kp HOME           &kp LSHFT   &kp ENTER                 &kp SPACE  &kp BACKSPACE       &kp EQUAL   &kp MINUS  &kp RBKT  &kp LBKT
+        &kp TAB          &kp Q     &kp W    &kp E    &kp R     &kp T                                                &kp Y      &kp U    &kp I       &kp O      &kp P     &kp NUBS
+        &kp CAPSLOCK     &kp A     &kp S    &kp D    &kp F     &kp G                                                &kp H      &kp J    &kp K       &kp L      &kp SEMI  &kp SQT
+        &kp LEFT_CONTROL &kp Z     &kp X    &kp C    &kp V     &kp B                                                &kp N      &kp M    &kp COMMA   &kp DOT    &kp FSLH  &kp mo 1
+        &kp MINUS        &kp EQUAL &kp LALT &kp HOME           &kp LSHFT   &kp ENTER                 &kp SPACE  &kp BACKSPACE  &kp DELETE           &kp mo 3   &kp RBKT   &kp LBKT
             >;
     };
         lower_layer {
