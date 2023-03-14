@@ -10,4 +10,8 @@ manifest:
   self:
     path: config
 
-  west build -b nice_nano -- -DSHIELD=kyria_left -DZMK_CONFIG="C:\Users\super\zmk-config-splitkb_dolomity/config"
+#west build -b nice_nano -- -DSHIELD=dolomity_left -DZMK_CONFIG="C:\Users\super\zmk-config-splitkb_dolomity\config"
+
+
+
+
