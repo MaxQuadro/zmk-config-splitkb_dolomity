@@ -14,18 +14,18 @@
 
         default_layer {
         bindings = < 
-        &kp TAB          &kp Q     &kp W    &kp E    &kp R     &kp T     &kp Y      &kp U          &kp I       &kp O     &kp P     &kp NUBS
-        &kp CAPSLOCK     &kp A     &kp S    &kp D    &kp F     &kp G     &kp H      &kp J          &kp K       &kp L     &kp SEMI  &kp SQT
-        &kp LEFT_CONTROL &kp Z     &kp X    &kp C    &kp V     &kp B     &kp N      &kp M          &kp COMMA   &kp DOT   &kp FSLH  &mo NM
-        &kp MINUS        &kp EQUAL &kp LALT &kp HOME &kp LSHFT &kp ENTER &kp SPACE  &kp BACKSPACE  &kp DELETE  &mo BL    &kp RBKT  &kp LBKT
+        &kp TAB          &kp Q     &kp W    &kp E     &kp R     &kp T     &kp Y      &kp U          &kp I       &kp O     &kp P     &kp NUBS
+        &kp CAPSLOCK     &kp A     &kp S    &kp D     &kp F     &kp G     &kp H      &kp J          &kp K       &kp L     &kp SEMI  &kp SQT
+        &kp LEFT_CONTROL &kp Z     &kp X    &kp C     &kp V     &kp B     &kp N      &kp M          &kp COMMA   &kp DOT   &kp FSLH  &mo NM
+        &kp MINUS        &kp EQUAL &kp LALT &kp LMETA &kp LSHFT &kp ENTER &kp SPACE  &kp BACKSPACE  &kp DELETE  &mo BL    &kp RBKT  &kp LBKT
             >;
     };
         number_layer {
         bindings = < 
-        &trans   &trans   &kp N1   &kp N2 &kp N3   &trans   &trans  &trans         &trans          &trans           &trans  &trans
-        &trans   &trans   &kp N4   &kp N5 &kp N6   &trans   &trans  &trans         &kp UP_ARROW    &trans           &trans  &trans
-        &trans   &trans   &kp N7   &kp N8 &kp N9   &trans   &trans  &kp LEFT_ARROW &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &mo NM
-        &trans   &trans   &trans   &kp N0 &trans   &trans   &mo FN  &trans         &trans          &trans           &trans  &trans
+        &trans   &trans   &kp N1   &kp N2 &kp N3   &trans      &trans  &trans         &trans          &trans           &trans  &trans
+        &trans   &trans   &kp N4   &kp N5 &kp N6   &kp MINUS   &trans  &trans         &kp UP_ARROW    &trans           &trans  &trans
+        &trans   &trans   &kp N7   &kp N8 &kp N9   &kp PLUS    &trans  &kp LEFT_ARROW &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &mo NM
+        &trans   &trans   &trans   &kp N0 &trans   &trans      &mo FN  &trans         &trans          &trans           &trans  &trans
             >;
     };
 
@@ -40,10 +40,10 @@
 
         bt_layer {
         bindings = < 
-        &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans   &trans   &trans    &trans  &trans
-        &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans   &trans   &trans    &trans  &trans
-        &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans   &trans   &trans    &trans  &trans
-        &trans   &trans   &trans   &trans  &trans  &trans  &trans  &trans   &trans   &kp BL    &trans  &trans
+        &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &trans  &trans  &trans  &trans   &trans   &trans    &trans  &trans
+        &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans   &trans   &trans    &trans  &trans
+        &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans   &trans   &trans    &trans  &trans
+        &trans      &trans        &trans        &trans        &trans  &trans  &trans  &trans   &trans   &kp BL    &trans  &trans
             >;
     };
 
